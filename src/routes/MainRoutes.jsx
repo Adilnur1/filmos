@@ -22,7 +22,7 @@ const MainRoutes = () => {
         {PUBLICK_ROUTES.map((elem) => (
           <Route path={elem.link} key={elem.id} element={elem.element} />
         ))}
-        <h1></h1>
+        <h1>dfghfghfghjfghj</h1>
       </Routes>
     </div>
   );
