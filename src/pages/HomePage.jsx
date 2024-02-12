@@ -1,7 +1,12 @@
 import React from "react";
+import Swigger from "../components/homePage/Swigger";
 
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Swigger />
+    </div>
+  );
 };
 
 export default HomePage;
