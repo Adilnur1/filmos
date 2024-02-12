@@ -16,7 +16,7 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="nav-menu">
-          <a href="#">Одежда</a>
+          <a href="#">Одеждаа</a>
           <a href="#">Обувь</a>
           <a href="#">Аксессуары</a>
           <a href="#">Бренды</a>
