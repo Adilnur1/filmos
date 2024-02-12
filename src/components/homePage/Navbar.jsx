@@ -5,12 +5,15 @@ import star from "./assets/star.png";
 import auth from "./assets/auth.png";
 import cart from "./assets/cart.svg";
 import "./homePage.css";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
       <div className="conteiner">
         <div className="logo">
-          <img src={logo} alt="" />
+          <NavLink to={"/"}>
+            <img src={logo} alt="" />
+          </NavLink>
         </div>
         <div className="nav-menu">
           <a href="#">Одежда</a>
