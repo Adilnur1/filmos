@@ -12,12 +12,12 @@ const Navbar = () => {
       <div className="conteiner">
         <div className="logo">
           <NavLink to={"/"}>
-            <img src={logo} alt="" />a
+            <img src={logo} alt="" />
           </NavLink>
         </div>
         <div className="nav-menu">
           <a href="#">Одеждаа</a>
-          <a href="#">Обувь</a>
+          <NavLink to={"/products"}>Обувь</NavLink>
           <a href="#">Аксессуары</a>
           <a href="#">Бренды</a>
           <a href="#">Расчет стоимости</a>
