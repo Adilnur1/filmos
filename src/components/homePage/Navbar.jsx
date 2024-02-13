@@ -8,7 +8,7 @@ import "./homePage.css";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="c">
       <div className="conteiner">
         <div className="logo">
           <NavLink to={"/"}>

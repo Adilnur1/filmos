@@ -6,6 +6,7 @@ import Auth from "../components/auth/Auth";
 import EditPage from "../pages/EditPage";
 import AdminPage from "../pages/AdminPage";
 import { Route, Routes } from "react-router-dom";
+import Questions from "../pages/Questions";
 
 const MainRoutes = () => {
   const PUBLICK_ROUTES = [
@@ -15,6 +16,7 @@ const MainRoutes = () => {
     { id: 4, link: "/auth", element: <Auth /> },
     { id: 5, link: "/edit/:id", element: <EditPage /> },
     { id: 6, link: "/admin", element: <AdminPage /> },
+    { id: 7, link: "/q", element: <Questions /> },
   ];
   return (
     <div>
