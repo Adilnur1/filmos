@@ -39,10 +39,32 @@ const ProductContextProvider = ({ children }) => {
     });
     console.log(data);
   };
+  // ! Delate
+  const deleteProducts = async (id) => {
+    await axios.delete(`${API}/${id}`);
+    getProducts();
+  };
+  // ! GET_ONE_PRODUCT
+  const getOneProduct = async (id) => {
+    const { data } = await axios(`${API}/${id}`);
+    dispatch({
+      type: ACTIONS.GET_ONE_PRODUCT,
+      payload: data,
+    });
+  };
+  // ! EDIT
+  const editProduct = async (editedProduct, id) => {
+    await axios.patch(`${API}/${id}`, editedProduct);
+    getProducts();
+  };
   const values = {
     products: state.products,
+    oneProduct: state.oneProduct,
     addProduct,
     getProducts,
+    deleteProducts,
+    getOneProduct,
+    editProduct,
   };
   return (
     <productContext.Provider value={values}>{children}</productContext.Provider>
