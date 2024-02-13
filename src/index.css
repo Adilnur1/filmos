@@ -13,3 +13,210 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.con {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  margin-top: 179px;
+  /* padding-left: 280px; */
+  font-family: RF Dewi Expanded;
+  font-size: 31px;
+  font-weight: 900;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.subtitle {
+  display: flex;
+  font-family: RF Dewi Extended;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* padding-left: 280px; */
+  margin-top: 28px;
+}
+.interes {
+  display: flex;
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 52px;
+  /* padding-left: 280px; */
+}
+.interes button {
+  margin-left: 14%;
+  background: white;
+  border: none;
+  font-size: 25px;
+}
+.hr {
+  /* margin-left: 280px; */
+  margin-top: 3%;
+}
+.bezopasno {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 52px;
+  /* padding-left: 280px; */
+}
+.bezopasno button {
+  margin-left: 10%;
+  background: white;
+  border: none;
+  font-size: 30px;
+}
+.bezopasno2 {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 52px;
+}
+.bezopasno2 button {
+  margin-left: 11%;
+  background: white;
+  border: none;
+  font-size: 25px;
+}
+
+.th {
+  display: flex;
+  margin-top: 19px;
+  justify-content: center;
+}
+.tovar {
+  font-family: RF Dewi Extended;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 31px;
+}
+
+.origin-tovar {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.origin-tovar button {
+  margin-left: 16%;
+  background: white;
+  border: none;
+  font-size: 25px;
+}
+.new-tovar {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.new-tovar button {
+  margin-left: 10%;
+  background: white;
+  border: none;
+  font-size: 25px;
+  margin-top: 21px;
+}
+
+.subprice {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subprice button {
+  margin-left: 20%;
+  background: white;
+  border: none;
+  font-size: 25px;
+  margin-top: 21px;
+}
+.TotalPrice {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.TotalPrice button {
+  margin-left: 18%;
+  background: white;
+  border: none;
+  font-size: 25px;
+  margin-top: 21px;
+}
+
+.dostavka {
+  margin-top: 31px;
+  stylename: H3;
+  font-family: RF Dewi Extended;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.price-dostavka {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.price-dostavka button {
+  margin-left: 26%;
+  background: white;
+  border: none;
+  font-size: 25px;
+  margin-top: 21px;
+}
+.kub {
+  width: Fixed (1, 360px);
+  height: Hug (70px);
+  padding: 21px, 10px, 21px, 10px;
+  border: 0px, 0px, 1px, 0px;
+  gap: 10px;
+}
+
+.back-tovar {
+  font-family: RF Dewi Extended;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.back-tovar button {
+  margin-left: 25%;
+  background: white;
+  border: none;
+  font-size: 25px;
+  margin-top: 21px;
+}
