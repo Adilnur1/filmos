@@ -1,17 +1,6 @@
 {
-  "products": [
-    {
-      "todoName": "Бутцы Nike",
-      "todoImg": "https://colibri.union-space.uz:9997/content/images/products/disport/DJ5963_146_1.jpg",
-      "todoPrice": "234",
-      "id": 1,
-      "todoPhone": "23"
-    },
-    {
-      "todoName": "Бутцы Nike Air",
-      "todoImg": "https://ae04.alicdn.com/kf/S0de1cc945cd24956bd7cf9452e5137e6m.jpg_640x640.jpg",
-      "todoPrice": "23",
-      "id": 2
-    }
-  ]
+
+  "products": []
+  
+
 }
