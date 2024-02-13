@@ -1,0 +1,43 @@
+footer {
+  background-color: black;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+.container {
+  color: white;
+  display: flex;
+  max-width: 1260px;
+  /* height: 50%; */
+  justify-content: space-between;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.podpis a {
+  width: 154px;
+  /* height: 275px; */
+  left: 359px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 20px;
+}
+.information a {
+  text-decoration: none;
+  color: white;
+  /* padding-top: 9px; */
+  padding-bottom: 20px;
+}
+.catalogg a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+}
+.aa {
+  margin-bottom: 50px;
+}

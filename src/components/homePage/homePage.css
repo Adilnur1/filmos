@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
-*{
+* {
   font-family: Montserrat;
 }
 
-nav {
+.c {
   background: #000;
 }
 .conteiner {
@@ -29,64 +29,67 @@ nav {
   align-items: center;
   gap: 30px;
 }
-.swagger{
-  background-image: url('./assets/backgroundImg.png');  
+.swagger {
+  background-image: url("./assets/backgroundImg.png");
   width: 1541px;
   height: 631px;
 
   border-radius: 20px;
 }
-.swagger__title{
+.swagger__title {
   display: flex;
   flex-direction: column;
   margin: 90px 0 0 100px;
-
 }
-.swagger__title span{
+.swagger__title span {
   font-size: 19px;
-  font-weight: 400
-  
+  font-weight: 400;
 }
-.swagger__title button{
+.swagger__title button {
   width: 251.6px;
   height: 66px;
   padding: 23px 27px 23px 27px;
   background: rgb(18, 18, 20);
   font-size: 15px;
-  color:#fff;
+  color: #fff;
   margin-top: 20px;
 }
-h1{
+h1 {
   font-size: 51px;
   font-weight: 700;
   text-align: left;
   text-transform: uppercase;
 }
 
-
 /* ! */
 
-.aboutContact{
+.aboutContact {
   display: flex;
   /* flex-direction: row; */
-
 }
-.numbering{
+.numbering {
   display: flex;
 }
 
-.aboutContact{
+.aboutContact {
   width: 1541px;
   height: 631px;
   border-radius: 7px;
-  background: linear-gradient(252.78deg, rgb(13, 153, 248) 0.937%,rgb(33, 160, 248) 5.359%,rgb(84, 181, 255) 27.352%,rgb(13, 187, 248) 79.002%,rgb(13, 219, 248) 97.533%);
+  background: linear-gradient(
+    252.78deg,
+    rgb(13, 153, 248) 0.937%,
+    rgb(33, 160, 248) 5.359%,
+    rgb(84, 181, 255) 27.352%,
+    rgb(13, 187, 248) 79.002%,
+    rgb(13, 219, 248) 97.533%
+  );
 }
 
-.aboutContact__content{
+.aboutContact__content {
   margin-left: 90px;
 }
 
-.aboutContact__content button{
+.aboutContact__content button {
   padding: 23px 27px 23px 27px;
   border-radius: 5px;
   width: 294.6px;
@@ -100,29 +103,28 @@ h1{
   text-transform: uppercase;
   margin-top: 48px;
 }
-.aboutContact-content__title h3{
+.aboutContact-content__title h3 {
   font-size: 51px;
-font-weight: 900;
-text-transform: uppercase;
-color: rgb(255, 255, 255);
-
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
 }
 
-.aboutContact-content__title span{
+.aboutContact-content__title span {
   color: rgb(255, 255, 255);
   font-size: 19px;
   font-weight: 400;
   line-height: 32px;
 }
 
-.aboutContent-content__numbering{
- display: flex;
- flex-direction: row;
- align-items: center;
- margin-top: 30px;
+.aboutContent-content__numbering {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
   margin-right: 40px;
 }
-.aboutContent-content__numbering span{
+.aboutContent-content__numbering span {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
@@ -144,32 +146,42 @@ color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .background-phone {
   width: 600px;
   height: 200px;
   position: absolute;
 }
-.background-phone img{
+.background-phone img {
   width: 500px;
   height: 600px;
   margin-left: 800px;
 }
 
 /* !! */
-.different-stuff{
-  background: radial-gradient(103.45% 119.04% at 17% 0%,rgba(255, 255, 255, 0.19),rgba(255, 255, 255, 0) 100%)/* Предупреждение: градиент использует вращение, не поддерживаемое CSS, и может работать не так, как ожидается. */,linear-gradient(-72.22deg, rgb(188, 191, 199) -4.307%,rgb(213, 215, 220) 46.69%),rgb(217, 217, 217);
+.different-stuff {
+  background: radial-gradient(
+        103.45% 119.04% at 17% 0%,
+        rgba(255, 255, 255, 0.19),
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* Предупреждение: градиент использует вращение, не поддерживаемое CSS, и может работать не так, как ожидается. */,
+    linear-gradient(
+      -72.22deg,
+      rgb(188, 191, 199) -4.307%,
+      rgb(213, 215, 220) 46.69%
+    ),
+    rgb(217, 217, 217);
   width: 100%px;
   height: 500px;
 }
 
-.different-stuff__container{
+.different-stuff__container {
   display: flex;
   justify-content: space-between;
 }
 
-.different-stuff__title{
+.different-stuff__title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,7 +189,7 @@ color: rgb(255, 255, 255);
   margin-left: 50px;
   margin-top: 60px;
 }
-.different-stuff__title h4{
+.different-stuff__title h4 {
   color: rgb(18, 18, 20);
   font-size: 36px;
   font-weight: 900;
@@ -185,32 +197,32 @@ color: rgb(255, 255, 255);
   text-transform: uppercase;
   margin: 0;
 }
-.different-stuff__title p{
+.different-stuff__title p {
   color: rgb(48, 48, 48);
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 10px;
 }
-.different-stuff__socie{
+.different-stuff__socie {
   margin-top: 100px;
   margin-right: 30px;
 }
 
 /* !  */
 
-.conteiner2{
+.conteiner2 {
   width: 85%;
   margin: 0 auto;
 }
-.title h5{
+.title h5 {
   font-size: 31px;
   font-weight: 700;
   line-height: 42px;
   text-transform: uppercase;
 }
 
-.news-components{
+.news-components {
   display: flex;
   justify-content: space-between;
 }
@@ -220,20 +232,19 @@ color: rgb(255, 255, 255);
   width: 400px;
 }
 
-.news-components__block p{
+.news-components__block p {
   color: rgb(18, 18, 20);
   font-size: 23px;
   font-weight: 700;
   line-height: 30px;
-
 }
-.news-components__block span{
+.news-components__block span {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
-  color: rgb(48, 48, 48); 
+  color: rgb(48, 48, 48);
 }
-.news-components__block a{
+.news-components__block a {
   text-transform: uppercase;
   color: rgb(0, 0, 0);
   font-size: 14px;

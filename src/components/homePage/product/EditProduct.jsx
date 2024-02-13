@@ -35,21 +35,18 @@ const EditProduct = () => {
         <input
           type="text"
           placeholder="image"
-          // onClick={(e) => e.stopPropagation()}
           onChange={(e) => setImg(e.target.value)}
           value={img}
         />
         <input
           type="text"
           placeholder="Name"
-          // onClick={(e) => e.stopPropagation()}
           onChange={(e) => setName(e.target.value)}
           value={name}
         />
         <input
           type="number"
           placeholder="Price"
-          // onClick={(e) => e.stopPropagation()}
           onChange={(e) => setPrice(e.target.value)}
           value={price}
         />
