@@ -11,7 +11,7 @@ const MainRoutes = () => {
   const PUBLICK_ROUTES = [
     { id: 1, link: "/", element: <HomePage /> },
     { id: 2, link: "/products", element: <ProductPage /> },
-    { id: 3, link: "/carrt", element: <Cart /> },
+    { id: 3, link: "/cart", element: <Cart /> },
     { id: 4, link: "/auth", element: <Auth /> },
     { id: 5, link: "/edit/:id", element: <EditPage /> },
     { id: 6, link: "/admin", element: <AdminPage /> },
